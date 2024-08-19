@@ -2,6 +2,7 @@ import React from "react";
 import Task from "./Task";
 
 function TaskList({ tasks, onDeleteTask }) {
+  // Render the tasks
   return (
     <div className="tasks">
       {tasks.map((task, index) => (
