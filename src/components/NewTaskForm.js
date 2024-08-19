@@ -7,7 +7,7 @@ function NewTaskForm({ categories, onTaskFormSubmit }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     onTaskFormSubmit({ text, category });
-    setText(""); // Clear the input after submission
+    setText(""); 
   };
 
   return (
